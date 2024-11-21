@@ -1,0 +1,111 @@
+/* changing the background color */
+body{
+    background-color: gray;
+}
+
+/* changing the table */
+th{
+    font-family: "Courier New";
+    color: white;
+    width: 3%;
+    border: 1px solid;
+    height: 35px;
+}
+
+a.table{
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+/* text code */
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: large;
+}
+
+.intro{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.leftText{
+    text-align: left;
+}
+
+.rightText{
+    text-align: right;
+}
+
+/* header */
+h1,h2,h3,h4,h5,h6{
+    font-family: "Courier New";
+    color: white;
+}
+
+/* hr code */
+hr{
+    border: hidden;
+    height: 25px;
+}
+
+hr.big{
+    border:hidden;
+    height: 100px;
+}
+
+/* image code */
+img{
+    color: white;
+}
+
+.rightImage{
+    display: block;
+    float: right;
+    width: 24%;
+}
+
+.leftImage{
+    display: block;
+    float: left;
+    width: 24%;
+}
+
+.centerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.presentable{
+    display: block;
+    float: left;
+    width: 45%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+/* button code */
+.centered-container {
+    display: flex;
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    height: 15vh;            /* Full viewport height */
+    margin: 0;                /* Remove default margin */
+}
+
+.my-button {
+    padding: 10px 20px;      /* Add some padding */
+    font-size: 16px;         /* Increase font size */
+    border-radius: 12px;
+}
